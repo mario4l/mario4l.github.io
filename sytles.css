@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p span {
+  color: #4e2a8e
+}
+
+a {
+  color: grey;
+}
+
+.content {
+  display: inline-block;
+  margin: 50px 0px 0px 50px;
+}
