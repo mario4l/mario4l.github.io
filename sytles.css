@@ -4,7 +4,7 @@ body {
 }
 
 p span {
-  color: #4e2a8e
+  color: #4e2a8e;
 }
 
 a {
@@ -14,4 +14,8 @@ a {
 .content {
   display: inline-block;
   margin: 50px 0px 0px 50px;
+}
+
+.vn-js {
+  background-color: pink;
 }
