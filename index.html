@@ -36,13 +36,18 @@
     .main {
       margin-top: 40px;
     }
+    @media only screen and (max-width: 600px) {
+      #profile-image {
+        display: none;
+      }
+    }
   </style>
   <title>Mario Vargas</title>
 </head>
 
 <body>
   <div class="ui container main">
-    <img class="ui small left floated image" src="./images/IMG_1612.JPG">
+    <img class="ui small left floated image" id="profile-image" src="./images/IMG_1612.JPG">
     <p>Hello, hi. I'm <span>Mario</span></p>
     <p>
       Web Developer with experience in Fintech, Health & Wellness, and Startups
