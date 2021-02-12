@@ -10,7 +10,9 @@
       font-family: monospace;
       font-size: 16px;
     }
-
+    .content-container {
+      padding-top: 100px;
+    }
     ::-moz-selection {
       background: pink;
       color: white;
@@ -36,6 +38,7 @@
     .main {
       margin-top: 40px;
     }
+
     @media only screen and (max-width: 600px) {
       #profile-image {
         display: none;
@@ -47,30 +50,31 @@
 
 <body>
   <div class="ui container main">
-    <p>Hello, hi. I'm <span>Mario</span></p>
-    <p>
-      Web Developer with experience in Fintech, Health & Wellness, and Startups
-    </p>
-    <p>
-      <em>In former life</em>, a martial artist,
-      <a href="https://chunkyturtlenecks.bandcamp.com/">bassist</a>, and your
-      neighborhood barista ☕️
-    </p>
-    <br />
-    <p>
-      <a href="https://www.linkedin.com/in/marianopvargas/">LinkedIn</a> /
-      <a href="https://github.com/mario4l">Github</a>
-    </p>
-    <p>Some things&colon;</p>
-    <ul>
-      <li>
-        <a href="https://affectionate-archimedes-3ef224.netlify.com/">The Gif that keeps giving</a>
-        &ndash; built with React (pre-hooks), deployed on Netlify 
-      </li>
-    </ul>
-    <br />
-    <hr>
-    <!-- <a href="resume.html">Resume <i class="file alternate outline icon"></i></a> -->
+    <div class="content-container">
+      <img class="ui small left floated circular image" src="/profile.jpg">
+      <h2>Hello, I'm <span>Mario</span></h2>
+      <p>
+        <em>In former life</em>, a martial artist,
+        <a href="https://chunkyturtlenecks.bandcamp.com/">bassist</a>, and your
+        neighborhood barista ☕️
+      </p>
+      <p><em>Currently, </em>I'm a web developer and <strike>pro</strike> <a
+          href="https://www.strava.com/athletes/6361373">cyclist</a></p>
+      <br><br>
+      <p>Some things&colon;</p>
+      <ul>
+        <li>
+          <a href="https://affectionate-archimedes-3ef224.netlify.com/">The Gif that keeps giving</a>
+          &ndash; built with React (pre-hooks), deployed on Netlify
+        </li>
+      </ul>
+      <hr>
+      <p>
+        <a href="https://www.linkedin.com/in/marianopvargas/">LinkedIn</a> /
+        <a href="https://github.com/mario4l">Github</a>
+        <!-- <a href="resume.html">Resume</a> -->
+      </p>
+    </div>
   </div>
 </body>
 
